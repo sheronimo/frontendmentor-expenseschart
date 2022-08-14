@@ -1,3 +1,16 @@
+/* Variables */
+:root {
+	--clr-background-body: hsl(27, 66%, 92%);
+	--clr-background-card: hsl(33, 100%, 98%);
+
+	--clr-primary: hsl(10, 79%, 65%);
+	--clr-secondary: hsl(186, 34%, 60%);
+
+	--clr-text-dark: hsl(25, 47%, 15%);
+	--clr-text-medium: hsl(28, 10%, 53%);
+	--clr-text-light: hsl(0, 0%, 100%);
+}
+
 /* Resets */
 
 *,
