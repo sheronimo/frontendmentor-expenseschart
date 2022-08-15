@@ -52,3 +52,21 @@ body {
 	background-color: var(--clr-background-body);
 	font-family: 'DM Sans', sans-serif;
 }
+
+/* Utility Classes */
+.round-corners {
+	border-radius: 1rem;
+}
+
+main {
+	width: min(calc(100% - 2rem), 540px);
+}
+
+.balance {
+	background-color: var(--clr-primary);
+	padding: 2rem;
+	color: var(--clr-text-light);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
