@@ -12,6 +12,8 @@
 	--clr-text-dark: hsl(25, 47%, 15%);
 	--clr-text-medium: hsl(28, 10%, 53%);
 	--clr-text-light: hsl(0, 0%, 100%);
+
+	--bar-highest: 150px;
 }
 
 /* Resets */
