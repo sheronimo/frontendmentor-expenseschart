@@ -30,6 +30,10 @@ img {
 	max-width: 100%;
 }
 
+ul {
+	list-style: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
 	html:focus-within {
 		scroll-behavior: auto;
