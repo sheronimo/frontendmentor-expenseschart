@@ -74,6 +74,10 @@ body {
 	font-weight: 700;
 }
 
+.clr-neutral {
+	color: var(--clr-text-medium);
+}
+
 main {
 	width: min(calc(100% - 2rem), 540px);
 }
