@@ -80,3 +80,7 @@ main {
 	align-items: center;
 	justify-content: space-between;
 }
+
+.bal-num {
+	margin-top: 0.5rem;
+}
