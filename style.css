@@ -120,6 +120,10 @@ main {
 	position: relative;
 }
 
+.bar:hover {
+	opacity: 0.8;
+}
+
 .bar:hover::before {
 	content: '$58.31';
 	font-weight: 700;
