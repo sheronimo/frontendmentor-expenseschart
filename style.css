@@ -117,6 +117,21 @@ main {
 	background-color: var(--clr-primary);
 	border-radius: 4px;
 	cursor: pointer;
+	position: relative;
+}
+
+.bar:hover::before {
+	content: '$58.31';
+	font-weight: 700;
+	position: absolute;
+	top: -3.0625rem;
+	left: 50%;
+	transform: translateX(-50%);
+	color: var(--clr-text-light);
+	background-color: var(--clr-text-dark);
+	padding-inline: 0.5625rem;
+	padding-block: 0.625rem;
+	border-radius: 5px;
 }
 
 .bar-secondary {
