@@ -113,7 +113,6 @@ main {
 }
 
 .bar {
-	height: var(--bar-highest);
 	background-color: var(--clr-primary);
 	border-radius: 4px;
 	cursor: pointer;
@@ -125,7 +124,7 @@ main {
 }
 
 .bar:hover::before {
-	content: '$58.31';
+	content: attr(data-tooltip);
 	font-weight: 700;
 	position: absolute;
 	top: -3.0625rem;
